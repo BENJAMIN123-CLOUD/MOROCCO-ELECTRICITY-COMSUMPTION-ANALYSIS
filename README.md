@@ -68,11 +68,18 @@ To analyze the correlation between electricity consumption and environmental fac
 
 **Correlation Calculations**
 
-We calculated the Pearson correlation coefficient to quantify the strength and direction of the relationship between electricity consumption and each environmental variable. The Pearson correlation coefficient is a widely used statistical measure that helps in understanding the degree of linear association between two variables.
+We calculated the Pearson correlation coefficient to quantify the strength and direction of the relationship between electricity consumption and each environmental variable. The Pearson correlation coefficient is a widely used statistical measure that helps in understanding the degree of linear association between two variables. The correlation calculations reveals that the power consumption zone with the strongest relation is power consumption_zone3 = Temperature (0.489527308).
+
+*Correlation calculation Table*
+|      **Zone**      |      **Temperature**      |      **Humidity**      |      **Wind-Speed**      |      
+:--------------------|---------------------------|------------------------|--------------------------:
+|1|-0.440220789|-0.287420602|0.167444076|
+|2| 0.382428106|-0.294961424|0.146413393|
+|3| 0.489527308| 0.233021673|0.278640568|
 
 **Analysis of Correlation Results**
 
-The correlation results were analyzed to identify the strongest correlations and understand their potential implications. This analysis helps in determining which environmental factors most significantly impact electricity consumption, thereby providing insights for better energy management and planning. The analysis revealed that the power consumption zone with the strongest relation is power consumption_zone3 = Temperature (0.489527308).
+The correlation results were analyzed to identify the strongest correlations and understand their potential implications. This analysis helps in determining which environmental factors most significantly impact electricity consumption, thereby providing insights for better energy management and planning. 
 
 #### Comparative Analysis of consumption patterns
 To investigate whether different zones exhibit distinct patterns in electricity consumption, a comprehensive analysis was conducted using Power BI. The following steps were taken:
@@ -108,4 +115,4 @@ The dashboard provides a comprehensive visualization of electricity consumption 
 #### Conclusion
 The dashboard offers a robust tool for analyzing electricity consumption in Morocco, providing detailed visualizations and key metrics that facilitates data driven decision making. By leveraging the interactive features and comprehensive data analysis, stakeholders can gain valuable insights into energy usage patterns and environmental impacts aiding in efficient energy management strategies.
 
-#### Appendices
+Thank You!
