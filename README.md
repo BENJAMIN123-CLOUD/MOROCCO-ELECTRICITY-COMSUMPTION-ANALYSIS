@@ -15,6 +15,9 @@ Understanding electricity consumption patterns is critical for several reasons:
 - **Cost Efficiency**: Reduces costs associated with overproduction or underproduction of electricity.
 - **Sustainability**: Supports efforts to minimize environmental impacts by aligning consumption with renewable energy production.
 
+### Data Dictionary 
+This data dictionary provides detailed descriptions of the fields used in the dataset for analyzing electricity consumption and environmental factors. 
+
 ### Data Description
 The data used in this analysis consists of electricity consumption measurements from Morocco, recorded at 10-minute intervals across three distinct zones. The dataset includes environmental factors such as temperature, humidity, and wind speed. The data spans a significant period, providing granular insights necessary for detailed analysis.
 
@@ -39,22 +42,70 @@ To facilitate the analysis, we created several derived variables:
 2. **Day of Week**: Segmenting data by the day of the week to capture weekly trends.
 3. **Month**: Classifying data by month to identify seasonal variations.
 
-#### Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 Exploratory Data Analysis was conducted to gain a preliminary understanding of the dataset. This included:
 
 1. **Descriptive Statistics**: Calculating mean, median, standard deviation, and other summary statistics.
 2. **Visualizations**: Creating histograms, box plots, and time series plots to visually inspect data distributions and trends.
 
-### Seasonal Patterns in Electricity Consumption
+#### Seasonal Patterns in Electricity Consumption
 
-#### Hourly Patterns
-**Average Hourly Consumption by Season**: Analyzed to understand how consumption varies throughout the day in different seasons.
+**Hourly Patterns**
+- **Average Hourly Consumption by Season**: Analyzed to understand how consumption varies throughout the day in different seasons.
 
-#### Weekly Patterns
-1. **Average Daily Consumption by Day of Week and Season**: Investigated to reveal how daily consumption differs across weekdays and weekends, and how these patterns shift with the seasons.
-2. **Load Profiles for Weekdays and Weekends**: Developed to compare consumption behaviors between weekdays and weekends.
+**Weekly Patterns**
+- **Average Daily Consumption by Day of Week and Season**: Investigated to reveal how daily consumption differs across weekdays and weekends, and how these patterns shift with the seasons.
+- **Load Profiles for Weekdays and Weekends**: Developed to compare consumption behaviors between weekdays and weekends.
 
-#### Annual Patterns
-1. **Monthly Consumption Patterns**: Explored to identify trends and anomalies in monthly energy use.
-2. **Year-Over-Year Comparisons**: Conducted to detect long-term changes and trends in electricity consumption.
+**Annual Patterns**
+- **Monthly Consumption Patterns**: Explored to identify trends and anomalies in monthly energy use.
+- **Year-Over-Year Comparisons**: Conducted to detect long-term changes and trends in electricity consumption.
 
+#### Correlation Analysis Using Excel
+**Data Alignment**
+
+To analyze the correlation between electricity consumption and environmental factors, we ensured proper data alignment for consumption and variables such as temperature, wind speed, and humidity. This step was crucial to maintain the integrity and accuracy of the analysis.
+
+**Correlation Calculations**
+
+We calculated the Pearson correlation coefficient to quantify the strength and direction of the relationship between electricity consumption and each environmental variable. The Pearson correlation coefficient is a widely used statistical measure that helps in understanding the degree of linear association between two variables.
+
+**Analysis of Correlation Results**
+
+The correlation results were analyzed to identify the strongest correlations and understand their potential implications. This analysis helps in determining which environmental factors most significantly impact electricity consumption, thereby providing insights for better energy management and planning. The analysis revealed that the power consumption zone with the strongest relation is power consumption_zone3 = Temperature (0.489527308).
+
+#### Comparative Analysis of consumption patterns
+To investigate whether different zones exhibit distinct patterns in electricity consumption, a comprehensive analysis was conducted using Power BI. The following steps were taken:
+
+1. **Data Preparation**: The datasets containing electricity consumption data for multiple zones was imported into Power BI. 
+
+2. **Data Visualization**: Interactive visualizations, such as line charts and bar charts, were created to illustrate the electricity consumption patterns across different zones.
+
+3. **Zone-wise Analysis**: Separate visualizations were created for each zone to facilitate a detailed examination of their unique consumption patterns.
+
+4. **Comparative Analysis**: Visualizations were used to compare the consumption patterns across different zones, enabling the identification of similarities and differences.
+
+#### Dashboard Overview (appendix 3)
+The dashboard provides a comprehensive visualization of electricity consumption across different zones in Morocco, incorporating various analytical elements to offer detailed insights. The primary components of the dashboard include:
+1. **Zone-specific Dashboards**:
+   - Separate dashboards for each of the three zones, showcasing detailed consumption patterns.
+   - Visual representation of hourly, daily, and monthly consumption trends.
+
+2. **Pie Chart for Average Energy Consumption by Zones**:
+   - A pie chart illustrating the proportion of energy consumption contributed by each zone.
+   - Helps in understanding the distribution of electricity usage across different regions.
+
+3. **Key Metrics Calculation**:
+   - Total Energy Consumption: Aggregate consumption across all zones.
+   - Average Temperature: Mean temperature readings associated with the consumption data.
+   - Average Humidity: Mean humidity levels recorded.
+   - Average Wind Speed: Mean wind speed values.
+
+4. **Interactive Slicer**:
+   - An hour slicer that allows users to filter the data by specific hours of the day.
+   - Facilitates a granular analysis of consumption patterns at different times.
+
+#### Conclusion
+The dashboard offers a robust tool for analyzing electricity consumption in Morocco, providing detailed visualizations and key metrics that facilitates data driven decision making. By leveraging the interactive features and comprehensive data analysis, stakeholders can gain valuable insights into energy usage patterns and environmental impacts aiding in efficient energy management strategies.
+
+#### Appendices
