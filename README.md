@@ -1,7 +1,7 @@
 # MOROCCO ELECTRICITY COMSUMPTION ANALYSIS
 
 ## Introduction
-
+CLEARLY 
 ### Brief Overview of the Project's Objective
 This project aims to analyze electricity consumption patterns in Morocco. By understanding these patterns, we can enhance energy management, optimize resource allocation, and contribute to the sustainability and efficiency of the electrical grid.
 
