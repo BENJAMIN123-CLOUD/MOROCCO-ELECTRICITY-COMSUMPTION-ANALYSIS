@@ -92,7 +92,7 @@ To investigate whether different zones exhibit distinct patterns in electricity 
 
 4. **Comparative Analysis**: Visualizations were used to compare the consumption patterns across different zones, enabling the identification of similarities and differences.
 
-#### Dashboard Overview (appendix 3)
+#### Dashboard Overview
 The dashboard provides a comprehensive visualization of electricity consumption across different zones in Morocco, incorporating various analytical elements to offer detailed insights. The primary components of the dashboard include:
 1. **Zone-specific Dashboards**:
    - Separate dashboards for each of the three zones, showcasing detailed consumption patterns.
